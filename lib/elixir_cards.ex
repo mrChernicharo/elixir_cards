@@ -34,11 +34,11 @@ defmodule ElixirCards do
     IO.puts("\nAnd this is the rest of the cards\n")
     IO.inspect(remaining_cards)
 
-    IO.puts("\ndo I have an ♣️ A?")
-    IO.inspect(Cards.contains?(my_hand, "♠️ Ace\n"))
+    IO.puts("\ndo I have an ♠️ A?")
+    IO.puts(Cards.contains?(my_hand, "♠️ A"))
 
     IO.puts("\ndo I have a ♦️ 6?")
-    IO.inspect(Cards.contains?(my_hand, "♦️ 6\n"))
+    IO.puts(Cards.contains?(my_hand, "♦️ 6"))
 
     IO.puts("\nOk, now please Save my deck for the next round\n")
     # uuid = UUID.uuid4()
